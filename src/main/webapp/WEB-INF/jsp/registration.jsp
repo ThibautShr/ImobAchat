@@ -12,7 +12,7 @@
         <div class="white-box width-25pc margin-top-30px">
           <div class="row">
             <div class="col-md-6">
-              <form:input path="firstname" type="text" id="first_name_registration" placeholder="PrÃ©nom" class="form-control"/>
+              <form:input path="firstname" type="text" id="first_name_registration" placeholder="Prénom" class="form-control"/>
             </div>
             <div class="col-md-6">
               <form:input path="lastName" type="text" id="last_name_registration" placeholder="Nom" class="form-control"/>
@@ -28,10 +28,10 @@
           
           <!-- <h3 id="error_confirmation_registration" class="red display-none"><i class="fa fa-warning"></i> Erreur de confirmation.</h3><br/> -->
           
-          <button id="registration_button" type="submit" class="btn btn-info margin-top-10px" onclick="makeAccount()">CrÃ©er</button>
+          <button id="registration_button" type="submit" class="btn btn-info margin-top-10px">Créer</button>
         </div>
 
-        <a href="registration"><h2 id="link_login" onclick="loadLogin()" class="pointer">Connectez vous</h2></a>
+        <a href="registration"><h2 id="link_login" class="pointer">Connectez vous</h2></a>
       </div>
     </form:form>
   </center>
